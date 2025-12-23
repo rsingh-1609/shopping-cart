@@ -8,7 +8,6 @@
 	<description>A Shopping Cart Project in Java by Bitter Code</description>
 	<build>
 		 <distributionManagement>
-
             <repository>
               <id>nexus</id>
               <name>AD Technologies Releases Nexus Repository</name>
@@ -20,8 +19,8 @@
               <name>AD Technologies Snapshot Nexus Repository </name>
               <url>http://192.168.1.10:8081/repository/Dpipeline//</url>
             </snapshotRepository>
-
         </distributionManagement>
+		
 		<sourceDirectory>src</sourceDirectory>
 		<resources>
 			<resource>
