@@ -34,7 +34,21 @@
 			</plugin>
 		</plugins>
 	</build>
+ <distributionManagement>
 
+            <repository>
+              <id>nexus</id>
+              <name>AD Technologies Releases Nexus Repository</name>
+              <url>http://192.168.1.10:8081/repository/Dpipeline-release//</url>
+            </repository>
+
+            <snapshotRepository>
+              <id>nexus</id>
+              <name>AD Technologies Snapshot Nexus Repository </name>
+              <url>http://192.168.1.10:8081/repository/Dpipeline//</url>
+            </snapshotRepository>
+
+        </distributionManagement>
 	<dependencies>
 		<dependency>
 			<groupId>mysql</groupId>
